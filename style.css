@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-main{
+    height: 70vh;
+    background-image: url(image/image1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.header1{
+    display: flex;
+    color: white;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    gap: 1rem;
+}
+.get-app{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+.header1-rest{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.mobilehand2{
+    width: 1rem;
+}
+.header2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zomato-logo{
+    font-size: 40px;
+   
+    color: white;
+    padding-top: 1.6rem;
+}
+.header2-input{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 50rem;
+    height: 3.5rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    gap: 1rem;
+}
+.header2-icon{
+    width: 1rem;
+}
+.header2-input2{
+    width: 30rem;
+    height: 3rem;
+}
+.border{
+    border: 0px;
+}
+.ancortag{
+    text-decoration: none;
+    color: inherit;
+    
+}
+.section1{
+    height: 40vh;
+    width: 43vw;
+    background-image: url(image/image\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+    position: relative;
+    border: .5px  solid gainsboro;
+    border-radius: 10px;
+}
+.section1-text{
+    width: 100%;
+    padding: .5rem;
+    position: absolute;
+    background-color:white;
+    bottom: 0px;
+    font-size: large;
+    line-height: 1.5;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 1rem;
+}
+.section1-p2{
+    font-size: 15px;
+    font-weight: 100;
+    color: grey;
+}
+.section2-head{
+    margin-left: 5rem;
+    margin-top: 6rem;
+    font-size: 2.3rem;
+    font-weight: lighter;
+    padding-bottom: 2.5rem;
+    
+}
+.section2-body{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-between;
+    row-gap: 1rem;
+}
+.section2-body-cont{
+    width: 22rem;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    
+}
+.span1{
+    font-size: 1rem;
+    color: gray;
+}
+.section3{
+    margin-top: 7rem;
+    background-color: #FFFBF7;
+}
+.section3-wraper-div{
+    display: flex;
+}
+.section3-image{
+  width: 21rem;
+}
+.section3-image-div{
+    margin-left: 12rem;
+    padding: 3rem;
+}
+.section3-content-header1{
+    font-size: 2.8rem;
+}
+.section3-content-text{
+    font-size: 1.2rem;
+}
+.section3-content-div{
+    padding-top: 4rem;
+    line-height: 2;
+}
+.section3-radio{
+    margin-top: 1rem;
+}
+#email{
+   
+    width: 1.2rem;
+    height: 1.2rem;
+}
+#Phone{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 3rem;
+}
+#typeemail{
+    width: 18rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+#submitemail{
+    height: 3rem;
+    width: 8rem;
+    background-color: #E03546;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 0px;
+}
+.section3-foot{
+    font-size: .9rem;
+    color: rgb(197, 193, 193);
+    margin-top: 1rem;
+}
+.section3-foot-image{
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.section4-body-cont{
+    height: 5rem;
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color:rgb(112, 110, 110);
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.footer-main{
+    margin-top: 7rem;
+}
+.footer1{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-between;
+}
+.footer1-image1{
+    height: 2rem;
+}
+.footer-india{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    gap: 5px;
+    border-radius: 5px;
+}
+.flag{
+    width: 2rem;
+}
+.footer1-div2{
+    display: flex;
+    gap: 1rem;
+}
+.footer2{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    gap: 5rem;
+
+}
+.footer2-div1{
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+.small{
+    color: rgb(150, 149, 149);
+
+}
+.sociallinks{
+     width: 10rem;
+}
+.footer3{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+   
+}
+.footer3 p{
+    margin-top: 1rem;
+    font-size: .9rem;
+    opacity: .5;
+}
+.ancor{
+    text-decoration: none;
+    text-decoration-color: inherit;
+}
