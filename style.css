@@ -36,6 +36,10 @@
     flex-direction: column;
     align-items: center;
 }
+.zomato-logo-main{
+    width: 20rem;
+    margin-top: 3rem;
+}
 .zomato-logo{
     font-size: 40px;
    
